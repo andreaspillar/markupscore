@@ -1,0 +1,111 @@
+@font-face {
+    src: 
+		local('Raleway'),
+		local('Raleway-Thin'),
+		url('ralewaythin.otf') 
+		format('opentype');
+    font-family: 'Raleway';
+    src: url('ralewaythin.otf') format('opentype'); 
+}
+@font-face {
+    src: 
+		local('Droid Sans'),
+		local('Droid-Sans'),
+		url('DroidSans.ttf') 
+		format('truetype');
+    font-family: 'Droid Sans';
+    src: url('DroidSans.ttf') format('truetype'); 
+}
+h1{
+    position: absolute;
+    top: -25px;
+    left: 20px;
+    font-family: Droid Sans, sans-serif;
+}
+.rel1{
+    top: -9px;
+    float: left;
+    right: 10px;
+    width: 100%;
+    height: 70px;
+    border-style: hidden;
+    position: relative;
+    background-color: rgb(97, 106, 111);
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+.rel2{
+    position: relative;
+    top: -80px;
+    left: 8px;
+    float: right;
+    width: 100px;
+    height: 20px;
+    border-style: hidden;
+    background-color: gainsboro;
+    padding: 26px 0 25px 0;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+.out{
+    border-style: hidden;
+    background-color: #c23a2c;
+    padding: 26px 18px 27px 18px;
+    font-family: Droid Sans, sans-serif;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    
+}
+.out:hover{
+    background-color: #ff6758;
+}
+.out:active{
+    background-color: #98382e;
+}
+p{
+    text-align-last: center;
+    font-family: Droid Sans, sans-serif;
+    font-size: 18px;
+}
+.plz{
+    position: relative;
+    border-style: hidden;
+    border-radius: 5px;
+    background-color: #67ed6c;
+    float: right;
+    right:135px;
+    padding: 10px 15px ;
+    font-family: Droid Sans, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+.plz:hover{
+    background-color: #c4edc6;
+}
+.plz:active{
+    background-color: #4CAF50;
+    color: white;
+}
+#mhs{
+    font-family: Droid Sans, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+}
+#mhs th, #mhs td {
+    border-bottom: 1px solid #ddd;
+    padding: 4px;
+    text-align: center;
+}
+#mhs tr:hover {background-color: #a2a2a2}
+#mhs tr:nth-child(even) {background-color: #f2f2f2}
+#mhs th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}

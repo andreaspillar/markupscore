@@ -1,0 +1,77 @@
+@font-face {
+    src: 
+		local('Raleway'),
+		local('Raleway-Thin'),
+		url('ralewaythin.otf') 
+		format('opentype');
+    font-family: 'Raleway';
+    src: url('ralewaythin.otf') format('opentype'); 
+}
+@font-face {
+    src: 
+		local('Droid Sans'),
+		local('Droid-Sans'),
+		url('DroidSans.ttf') 
+		format('truetype');
+    font-family: 'Droid Sans';
+    src: url('DroidSans.ttf') format('truetype'); 
+}
+.lm{
+    border-style: hidden;
+    border-radius: 15px 15px 0 0;
+    background-color: rgb(103, 110, 116);
+    padding: 15px 30px 13px 30px;
+    font-family: Droid Sans, sans-serif;
+    font-size: 15px;
+    color: rgb(204, 211, 217);
+    text-decoration: none;
+    
+}
+.lu{
+    border-style: hidden;
+    border-radius: 15px 15px 0 0;
+    background-color: rgb(57, 66, 71);
+    padding: 15px 30px 13px 30px;
+    font-family: Droid Sans, sans-serif;
+    font-size: 15px;
+    color: rgb(97, 106, 111);
+    text-decoration: none;
+}
+body{
+    background-image: url(woodpanel.jpg);
+}
+.rel1{
+    position: relative;
+}
+.rel2{
+    width: 382px;
+    height: 200px;
+    border-style: hidden;
+    background-color: rgb(103, 110, 116);
+    padding: 50px 5px 30px 5px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+input[type=text], [type=password]{
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin: 0 0 10px;
+    font-size: 14px;
+    border-style: hidden;
+    font-family: Droid Sans, sans-serif;
+}
+input[type=submit]{
+    border-style: hidden;
+    border-radius: 5px; 
+    background-color: rgb(0, 177, 207);
+    padding: 10px 20px;
+    font-family: Droid Sans, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+input[type=submit]:active{
+    background-color: #61dbf0;
+    color: dimgrey;
+}

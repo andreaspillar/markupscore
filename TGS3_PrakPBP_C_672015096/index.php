@@ -1,0 +1,21 @@
+<?php
+session_start();
+if(isset($_SESSION['login'])){
+    if(isset($_SESSION['login'])&&isset($_SESSION['use'])){
+    session_destroy();
+    session_destroy();
+    header("Location:loginmhs.php");
+}else{
+    header("Location:home.php");
+}}
+else if(isset($_SESSION['use'])){
+    if(isset($_SESSION['login'])&&isset($_SESSION['use'])){
+    session_destroy();
+    session_destroy();
+    header("Location:loginmhs.php");
+}else{header("Location:home_mhs.php");
+     }
+}
+else{header("Location:loginmhs.php");}
+exit();
+?>
